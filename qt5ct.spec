@@ -14,6 +14,9 @@ Source:        %name-%version.tar.bz2
 Source1:		qt5ct.desktop
 #---------------------------------------------------------
 BuildRequires: qmake5
+BuildRequires: qt5-linguist-tools
+BuildRequires: qtchooser
+BuildRequires: qt5-devel
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Gui)
 BuildRequires: pkgconfig(Qt5Multimedia)
