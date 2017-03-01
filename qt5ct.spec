@@ -20,6 +20,7 @@ BuildRequires: qt5-devel
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Gui)
 BuildRequires: pkgconfig(Qt5Widgets)
+BuildRequires: %{_lib}qt5themesupport-static-devel
 
 %description
 This applications allows users to configure Qt5 settings (theme,
