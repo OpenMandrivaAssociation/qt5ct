@@ -4,7 +4,7 @@
 #
 
 Name:           qt5ct
-Version:        0.22
+Version:        0.30
 Release:        1
 Summary:        Qt5 Configuration Tool
 License:        BSD-2-Clause
@@ -19,8 +19,6 @@ BuildRequires: qtchooser
 BuildRequires: qt5-devel
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Gui)
-BuildRequires: pkgconfig(Qt5Multimedia)
-BuildRequires: pkgconfig(Qt5MultimediaWidgets)
 BuildRequires: pkgconfig(Qt5Widgets)
 
 %description
@@ -43,9 +41,10 @@ install -m 0644 %SOURCE1 %{buildroot}%{_datadir}/applications/qt5ct.desktop
   
 %files
 %defattr(-,root,root)
-%doc AUTHORS ChangeLog COPYING README TODO
+%doc AUTHORS ChangeLog COPYING README
 %_bindir/qt5ct
 %{_libdir}/qt5/plugins/platformthemes/libqt5ct.so
+%{_libdir}/qt5/plugins/styles/libqt5ct-style.so
 %{_datadir}/applications/qt5ct.desktop
 
 
