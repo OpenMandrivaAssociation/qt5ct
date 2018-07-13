@@ -4,13 +4,13 @@
 #
 
 Name:           qt5ct
-Version:        0.30
+Version:        0.35
 Release:        1
 Summary:        Qt5 Configuration Tool
 License:        BSD-2-Clause
 Group:          Graphical desktop/Other
 Url:            http://opendesktop.org/content/show.php/qt5ct?content=168066
-Source:        %name-%version.tar.bz2
+Source:        	https://sourceforge.net/projects/qt5ct/files/qt5ct-%{version}.tar.bz2
 Source1:		qt5ct.desktop
 #---------------------------------------------------------
 BuildRequires: qmake5
@@ -47,7 +47,7 @@ install -m 0644 %SOURCE1 %{buildroot}%{_datadir}/applications/qt5ct.desktop
 %{_libdir}/qt5/plugins/platformthemes/libqt5ct.so
 %{_libdir}/qt5/plugins/styles/libqt5ct-style.so
 %{_datadir}/applications/qt5ct.desktop
-
+%{_datadir}/qt5ct
 
 %changelog
 * Sun May 17 2015 bb <bb> 0.11-1pclos2015

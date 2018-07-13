@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   qt5ct-0.30.tar.bz2: 902aa7e08ccc96a94e4c5fbd2d2ef430c95308f9
+sources:
+  qt5ct-0.35.tar.bz2: 8830c6899763dab7f7ce10a26cb5ec7bff065c47
