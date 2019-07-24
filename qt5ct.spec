@@ -4,8 +4,8 @@
 #
 
 Name:           qt5ct
-Version:        0.35
-Release:        1
+Version:	0.39
+Release:	1
 Summary:        Qt5 Configuration Tool
 License:        BSD-2-Clause
 Group:          Graphical desktop/Other
