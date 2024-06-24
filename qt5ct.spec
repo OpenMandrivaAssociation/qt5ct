@@ -31,7 +31,7 @@ font, icons, etc.) under DE/WM without Qt integration.
 
 %build
 qmake-qt5
-%make
+%make_build
 
 %install
 rm -rf %buildroot
@@ -46,6 +46,7 @@ install -m 0644 %SOURCE1 %{buildroot}%{_datadir}/applications/qt5ct.desktop
 %_bindir/qt5ct
 %{_libdir}/qt5/plugins/platformthemes/libqt5ct.so
 %{_libdir}/qt5/plugins/styles/libqt5ct-style.so
+%{_libdir}/libqt5ct-common.so*
 %{_datadir}/applications/qt5ct.desktop
 %{_datadir}/qt5ct
 
