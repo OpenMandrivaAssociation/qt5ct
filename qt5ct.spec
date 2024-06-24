@@ -4,12 +4,12 @@
 #
 
 Name:           qt5ct
-Version:	1.5
+Version:	1.8
 Release:	1
 Summary:        Qt5 Configuration Tool
 License:        BSD-2-Clause
 Group:          Graphical desktop/Other
-Url:            http://opendesktop.org/content/show.php/qt5ct?content=168066
+Url:            https://opendesktop.org/content/show.php/qt5ct?content=168066
 Source:        	https://sourceforge.net/projects/qt5ct/files/qt5ct-%{version}.tar.bz2
 Source1:		qt5ct.desktop
 #---------------------------------------------------------
